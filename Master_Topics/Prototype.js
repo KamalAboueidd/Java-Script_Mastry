@@ -136,3 +136,52 @@ console.log(myCar.__proto__ === carPrototype); // true
 console.log(myCar.__proto__.__proto__ === carPrototype.__proto__); 
 const pureObj = Object.create(null);
 console.log(pureObj.__proto__);  // undefined => it means that the prototype of the object pureObj is null and it does not inherit from any object
+
+
+
+// __proto__ is the actual link used by the JS engine to traverse the prototype chain, while prototype is an object belonging only to functions used to set the __proto__ of new instances created with new
+
+function Device(brand) {
+  this.brand = brand;
+}
+
+const phone = new Device("Apple");
+Device.prototype = {
+  getBrand() {
+    return this.brand;
+  }
+};
+
+console.log(typeof phone.getBrand); // undefined => because the prototype of the function Device has been changed after the object phone has been created, so the object phone does not have access to the new prototype of the function Device
+
+
+
+
+const user = Object.create(null);
+user.name = "John";
+console.log(user.name); // 
+console.log(user.hasOwnProperty("name")) // TypeError: user.hasOwnProperty is not a function => because the prototype of the object user is null and it does not inherit from any object, so it does not have access to the hasOwnProperty() method of the Object.prototype
+
+
+
+
+// 
+function Device(brand) {
+  this.brand = brand;
+}
+
+const phone = new Device("Apple"); // this will create a new object phone and set its __proto__ to Device.prototype
+// and calll the function and change the this value  ,and implcit return 
+ // now !
+ //  phone = {
+//   brand: "Apple",
+//   __proto__: Device.prototype 
+// }
+
+Device.prototype = {
+  getBrand() {
+    return this.brand;
+  }
+};
+
+console.log(typeof phone.getBrand);

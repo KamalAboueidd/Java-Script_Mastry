@@ -10,3 +10,4 @@ Oraily book Advanced Topics , based on Micro.ai interview (now You Know what is 
 
    # 2 - JavaScript is ProtoType based  
   ![OOP(CPP)](prototypes.png)
+  ![OOP(CPP)](Js-Prototypes.webp)
