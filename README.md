@@ -11,3 +11,18 @@ Oraily book Advanced Topics , based on Micro.ai interview (now You Know what is 
    # 2 - JavaScript is ProtoType based  
   ![OOP(CPP)](prototypes.png)
   ![OOP(CPP)](Js-Prototypes.webp)
+
+  # 3 - How JS works in Engine
+
+  ![OOP(CPP)](javascript_enging.png)
+  ![OOP(CPP)](Phases_Engine.png)
+
+
+  # 4 - CallStack
+
+  ![OOP(CPP)](callStack.png)
+
+  # 5 - Single thread 
+  ![OOP(CPP)](THREAD_queu_stack.png)
+
+
