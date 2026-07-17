@@ -22,3 +22,8 @@
 
  // MicroStack 
  // Promises ==> async/await then()
+
+// ex : 
+ console.log("Hello world"); // 1
+ setTimeout(()=>{console.log("hELLO setTime out")},0) // 3
+Promise.resolve().then(() => console.log("Hello Kimo")); // 2
