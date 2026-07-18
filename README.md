@@ -35,8 +35,16 @@ Oraily book Advanced Topics , based on Micro.ai interview (now You Know what is 
   ![OOP(CPP)](lexical_env.png)
 
   # 7 - Hoisting 
+  ![OOP(CPP)](Hoisting.jpg)
 
-  
+  # 8 - function invokation , ... rest parameters , arguments
+
+  ![OOP(CPP)](args_rest.png)
+
+
+
+
+ 
   
 
   

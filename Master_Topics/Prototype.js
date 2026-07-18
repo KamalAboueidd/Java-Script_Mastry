@@ -185,3 +185,4 @@ Device.prototype = {
 };
 
 console.log(typeof phone.getBrand);
+
