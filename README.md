@@ -30,6 +30,15 @@ Oraily book Advanced Topics , based on Micro.ai interview (now You Know what is 
   # 5 - Execution context 
   ![OOP(CPP)](EXExecutionPhases.png)
 
+  # 6 - lexical env 
+
+  ![OOP(CPP)](lexical_env.png)
+
+  # 7 - Hoisting 
+
+  
+  
+
   
 
 
