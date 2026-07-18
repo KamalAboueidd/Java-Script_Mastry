@@ -21,8 +21,15 @@ Oraily book Advanced Topics , based on Micro.ai interview (now You Know what is 
   # 4 - CallStack
 
   ![OOP(CPP)](callStack.png)
+  ![OOP(CPP)](jsEngineAgain.png)
+
 
   # 5 - Single thread 
   ![OOP(CPP)](THREAD_queu_stack.png)
+
+  # 5 - Execution context 
+  ![OOP(CPP)](EXExecutionPhases.png)
+
+  
 
 
