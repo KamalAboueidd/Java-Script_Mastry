@@ -41,6 +41,16 @@ Oraily book Advanced Topics , based on Micro.ai interview (now You Know what is 
 
   ![OOP(CPP)](args_rest.png)
 
+  # 8 - Callback Functions
+    -- sync callbacks
+  ![OOP(CPP)](syncCallbacks.png)
+
+  -- async callbacks 
+  ![OOP(CPP)](Asyncallbacks.png)
+   
+
+    
+
 
 
 

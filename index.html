@@ -8,5 +8,27 @@
 <body>
     
 </body>
-<script src="Master_Topics/Function_Invokation.js"></script>
+<script src="Master_Topics/Callback_Functions.js"></script>
+<!-- <script>
+    debugger ;
+    function FetchDataFromServer(callback)
+{
+    console.log("1 Starting data fetch......."); // 1
+    setTimeout(()=> {
+            const data  = {userId : 1 , name : "kamal"};
+            console.log("3 Data has arrived from server  .");
+
+            callback(data) ;
+    },2000)
+    
+    function displayUser(user)
+    {
+         console.log(`4 user displayed : ${user.name}`);
+    }
+}
+
+FetchDataFromServer(displayUser);
+console.log("2 Moving to other tasks while waiting"); // 2
+
+</script> -->
 </html>
