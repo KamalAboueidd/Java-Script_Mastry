@@ -60,6 +60,11 @@ Oraily book Advanced Topics , based on Micro.ai interview (now You Know what is 
   // if the object not refer to any outer variable the Gc Delete this obj
   ![OOP(CPP)](Map_WEAK.png)
 
+  # 12 - Scope chain 
+  
+  ![OOP(CPP)](ScopeChain.png)
+  ![OOP(CPP)](MonitorScopeFromConsole.png)
+
 
 
    
