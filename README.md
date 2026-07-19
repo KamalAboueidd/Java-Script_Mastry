@@ -65,6 +65,10 @@ Oraily book Advanced Topics , based on Micro.ai interview (now You Know what is 
   ![OOP(CPP)](ScopeChain.png)
   ![OOP(CPP)](MonitorScopeFromConsole.png)
 
+  # 13 - Deep Let - var - const 
+  ![OOP(CPP)](lcv.png)
+
+
 
 
    
