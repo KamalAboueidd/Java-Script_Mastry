@@ -68,6 +68,10 @@ Oraily book Advanced Topics , based on Micro.ai interview (now You Know what is 
   # 13 - Deep Let - var - const 
   ![OOP(CPP)](lcv.png)
 
+# 14 - Lexical - Dynamic - Legacy scope
+
+  ![OOP(CPP)](lex.png)
+  ![OOP(CPP)](Dynamic_Legacy.png)
 
 
 
