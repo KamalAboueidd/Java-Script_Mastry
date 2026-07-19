@@ -41,12 +41,19 @@ Oraily book Advanced Topics , based on Micro.ai interview (now You Know what is 
 
   ![OOP(CPP)](args_rest.png)
 
-  # 8 - Callback Functions
+  # 9 - Callback Functions
     -- sync callbacks
   ![OOP(CPP)](syncCallbacks.png)
 
    -- async callbacks  ===========> Leads to Callback Hell OR Pyramid of Doom، 
   ![OOP(CPP)](Asyncallbacks.png)
+
+
+  # 10  - Data structre ==> SET , WEAKset in js 
+  ![OOP(CPP)](Set_WeakSet.png)
+
+
+
    
 
     
