@@ -50,7 +50,15 @@ Oraily book Advanced Topics , based on Micro.ai interview (now You Know what is 
 
 
   # 10  - Data structre ==> SET , WEAKset in js 
+  Weak set : only store the Objects 
+  weak referances
   ![OOP(CPP)](Set_WeakSet.png)
+
+
+  # 11  - Data structre ==> MAP , WEAKmap  in js 
+  // WEAK MAp : the object key is "Object" 
+  // if the object not refer to any outer variable the Gc Delete this obj
+  ![OOP(CPP)](Map_WEAK.png)
 
 
 
