@@ -91,7 +91,7 @@ Oraily book Advanced Topics , based on Micro.ai interview (now You Know what is 
 
   # 19 - HOF --- Higher Order Function 
 
-  ![OOP(CPP)]()
+  ![OOP(CPP)](HOF.png)
 
 
 

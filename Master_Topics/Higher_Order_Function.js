@@ -50,8 +50,8 @@ console.log(resultMessage);
 //          return num1 * num2 
 //      }
 // }
- const multiplayBy = (num1) => (num2) => num1 * num2;
-// console.log(multiplayBy(2)(10)); //
+ const multiplayBy = (num1) => (num2) => num1 * num2; // HOF enhancment
+// console.log(multiplayBy(2)(10)); // xx 
 const MltiplayByTwo = multiplayBy(2);
 const MltiplayByTen = multiplayBy(10);
 console.log(MltiplayByTwo(10));
