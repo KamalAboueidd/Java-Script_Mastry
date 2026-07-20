@@ -73,6 +73,14 @@ Oraily book Advanced Topics , based on Micro.ai interview (now You Know what is 
   ![OOP(CPP)](lex.png)
   ![OOP(CPP)](Dynamic_Legacy.png)
 
+  # 15 - Strict mode 
+  ![OOP(CPP)](strict.png)
+
+# 16 - call - apply - bind 
+
+  ![OOP(CPP)](call_apply_bindpng.png)
+
+
 
 
    
