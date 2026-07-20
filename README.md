@@ -89,6 +89,10 @@ Oraily book Advanced Topics , based on Micro.ai interview (now You Know what is 
 
   ![OOP(CPP)](typeCoercion.png)
 
+  # 19 - HOF --- Higher Order Function 
+
+  ![OOP(CPP)]()
+
 
 
    
