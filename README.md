@@ -80,6 +80,11 @@ Oraily book Advanced Topics , based on Micro.ai interview (now You Know what is 
 
   ![OOP(CPP)](call_apply_bindpng.png)
 
+  # 17 - primitive - non-primitive 
+
+  ![OOP(CPP)](PrimitiveNon-pre.png)
+  ![OOP(CPP)](passByrefValUE.png)
+
 
 
 
