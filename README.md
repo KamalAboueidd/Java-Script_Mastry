@@ -85,6 +85,9 @@ Oraily book Advanced Topics , based on Micro.ai interview (now You Know what is 
   ![OOP(CPP)](PrimitiveNon-pre.png)
   ![OOP(CPP)](passByrefValUE.png)
 
+# 18 -  type coercion
+
+  ![OOP(CPP)](typeCoercion.png)
 
 
 
