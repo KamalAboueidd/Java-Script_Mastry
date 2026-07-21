@@ -93,6 +93,20 @@ Oraily book Advanced Topics , based on Micro.ai interview (now You Know what is 
 
   ![OOP(CPP)](HOF.png)
 
+ # 20 - Closure (#important) in Interview 
+   The function "traps" or "remembers" the variables that were in its surrounding environment (the place where it was originally created),
+    even after that environment dies, finishes executing, and leaves the Call Stack
+  ![OOP(CPP)](Closures1.png)
+  ![OOP(CPP)](closer.png)
+
+  # 21 - variable Lockup..
+  /\ (summary):find the value of the variable based on the name 
+
+  # 22 - destructring , rest argumants - spread operator
+  
+  ![OOP(CPP)](png11.png)
+  
+
 
 
    
