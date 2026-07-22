@@ -105,6 +105,14 @@ Oraily book Advanced Topics , based on Micro.ai interview (now You Know what is 
   # 22 - destructring , rest argumants - spread operator
   
   ![OOP(CPP)](png11.png)
+
+
+  # 23- E6 - Modules 
+   import export 
+   Export default 
+   Named Export
+
+  ![OOP(CPP)](E6modules.png)
   
 
 
