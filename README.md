@@ -6,105 +6,123 @@ Oraily book Advanced Topics , based on Micro.ai interview (now You Know what is 
   
   # 1 - Garbage Collector 
 
-  ![OOP(CPP)](GrabageCollector.png)
+  ![Master)](GrabageCollector.png)
 
    # 2 - JavaScript is ProtoType based  
-  ![OOP(CPP)](prototypes.png)
-  ![OOP(CPP)](Js-Prototypes.webp)
+  ![Master](prototypes.png)
+  ![Master](Js-Prototypes.webp)
 
   # 3 - How JS works in Engine
+  - JavaScript is not an interpreted or compiled language, it is a mix of interpretation and compilation because of the Just-In-Time or JIT compiler it uses under the hood.
+  -  Just-in-Time (JIT) compilers work by dynamically compiling JavaScript code at runtime to native machine code, allowing it to execute faster than interpreted code
+  # Steps
+  - 1 Parsing: As a new piece of code enters the JavaScript Engine, the first step is parsing the code into a data structure called the Abstract Syntax Tree (AST).
+ 
+ - 2 Profiling: Now the JIT compiler identifies the parts of the code that are executed most frequently, which are the parts that should be optimized.
 
-  ![OOP(CPP)](javascript_enging.png)
-  ![OOP(CPP)](Phases_Engine.png)
+ - 3 Optimization: The JIT compiler then applies various optimization techniques to the frequently executed code, such as inlining functions, eliminating redundant code, and generating specialized machine code.
+ 
+  - 4 Code generation: Once the optimization process is complete, the JIT compiler generates binary code that can be executed directly by a CPU.
+
+ - 5 Execution: Finally, the optimized binary code is executed by a CPU quickly and efficiently.
+  Press enter or click to view image in full size
+ 
+  ![Master)](V8.png)
+  ![Master)](javascript_enging.png)
+  ![Master](Phases_Engine.png)
 
 
   # 4 - CallStack
 
-  ![OOP(CPP)](callStack.png)
-  ![OOP(CPP)](jsEngineAgain.png)
+  ![Master](callStack.png)
+  ![Master](jsEngineAgain.png)
 
 
   # 5 - Single thread 
-  ![OOP(CPP)](THREAD_queu_stack.png)
+  ![Master](THREAD_queu_stack.png)
 
   # 5 - Execution context 
-  ![OOP(CPP)](EXExecutionPhases.png)
+
+  ![Master](EXExecutionPhases.png)
+  # 5.5 Execution order 
+    
+  ![Master](Executionorder.png)
 
   # 6 - lexical env 
 
-  ![OOP(CPP)](lexical_env.png)
+  ![Master](lexical_env.png)
 
   # 7 - Hoisting 
-  ![OOP(CPP)](Hoisting.jpg)
+  ![Master](Hoisting.jpg)
 
   # 8 - function invokation , ... rest parameters , arguments
 
-  ![OOP(CPP)](args_rest.png)
+  ![Master](args_rest.png)
 
   # 9 - Callback Functions
     -- sync callbacks
-  ![OOP(CPP)](syncCallbacks.png)
+  ![Master](syncCallbacks.png)
 
    -- async callbacks  ===========> Leads to Callback Hell OR Pyramid of Doom، 
-  ![OOP(CPP)](Asyncallbacks.png)
+  ![Master](Asyncallbacks.png)
 
 
   # 10  - Data structre ==> SET , WEAKset in js 
   Weak set : only store the Objects 
   weak referances
-  ![OOP(CPP)](Set_WeakSet.png)
+  ![Master](Set_WeakSet.png)
 
 
   # 11  - Data structre ==> MAP , WEAKmap  in js 
   // WEAK MAp : the object key is "Object" 
   // if the object not refer to any outer variable the Gc Delete this obj
-  ![OOP(CPP)](Map_WEAK.png)
+  ![Master](Map_WEAK.png)
 
   # 12 - Scope chain 
   
-  ![OOP(CPP)](ScopeChain.png)
-  ![OOP(CPP)](MonitorScopeFromConsole.png)
+  ![Master](ScopeChain.png)
+  ![Master](MonitorScopeFromConsole.png)
 
   # 13 - Deep Let - var - const 
-  ![OOP(CPP)](lcv.png)
+  ![Master](lcv.png)
 
 # 14 - Lexical - Dynamic - Legacy scope
 
-  ![OOP(CPP)](lex.png)
-  ![OOP(CPP)](Dynamic_Legacy.png)
+  ![Master](lex.png)
+  ![Master](Dynamic_Legacy.png)
 
   # 15 - Strict mode 
-  ![OOP(CPP)](strict.png)
+  ![Master](strict.png)
 
 # 16 - call - apply - bind 
 
-  ![OOP(CPP)](call_apply_bindpng.png)
+  ![Master](call_apply_bindpng.png)
 
   # 17 - primitive - non-primitive 
 
-  ![OOP(CPP)](PrimitiveNon-pre.png)
-  ![OOP(CPP)](passByrefValUE.png)
+  ![Master](PrimitiveNon-pre.png)
+  ![Master](passByrefValUE.png)
 
 # 18 -  type coercion
 
-  ![OOP(CPP)](typeCoercion.png)
+  ![Master](typeCoercion.png)
 
   # 19 - HOF --- Higher Order Function 
 
-  ![OOP(CPP)](HOF.png)
+  ![Master](HOF.png)
 
  # 20 - Closure (#important) in Interview 
    The function "traps" or "remembers" the variables that were in its surrounding environment (the place where it was originally created),
     even after that environment dies, finishes executing, and leaves the Call Stack
-  ![OOP(CPP)](Closures1.png)
-  ![OOP(CPP)](closer.png)
+  ![Master](Closures1.png)
+  ![Master](closer.png)
 
   # 21 - variable Lockup..
   /\ (summary):find the value of the variable based on the name 
 
   # 22 - destructring , rest argumants - spread operator
   
-  ![OOP(CPP)](png11.png)
+  ![Master](png11.png)
 
 
   # 23- E6 - Modules 
@@ -112,7 +130,7 @@ Oraily book Advanced Topics , based on Micro.ai interview (now You Know what is 
    Export default 
    Named Export
 
-  ![OOP(CPP)](E6modules.png)
+  ![Master](E6modules.png)
   
 
 
