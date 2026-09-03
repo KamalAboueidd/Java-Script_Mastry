@@ -58,13 +58,49 @@ Oraily book Advanced Topics , based on Micro.ai interview (now You Know what is 
   ![Master)](MarkAndSwapAlgorithm.png)
   ![Master)](GrabageCollector.png)
    
-   
-  # 2 - JavaScript is ProtoType based  
+    
+ 
+
+  # 3 - JavaScript is ProtoType based  
   ![Master](prototypes.png)
   ![Master](Js-Prototypes.webp)
    
-    
-   
+   # 3.2  Hiddedn classes (Maps in V8 Engine)
+- 1. The  Problem
+JavaScript is a dynamically-typed language. Unlike static languages (like C++ or Java), objects can change their structure at runtime (adding or deleting properties). Without optimization, the engine would have to perform slow, dynamic lookups for every property access, which destroys performance.
+
+- 2. The Architectural Solution (Hidden Classes)
+To solve this, the V8 engine uses **Hidden Classes** (internally called **Maps**):
+
+* **Structural Blueprint:** Every object in the Memory Heap is linked to a Hidden Class that defines its layout and property offsets (where each property lives in memory).
+
+* **Values vs. Structure:** The object instance in the Memory Heap stores only the raw *values*, while the Hidden Class stores the *structure and memory offsets*.
+
+* **Smart Transitions:** If you add a new property to an object, V8 does not recreate the whole object. Instead, it transitions the object to a **new Hidden Class** that extends the previous one with the new property map.
+
+- 3. Shape Sharing (Efficiency)
+* **Sharing the Same Shape:** If multiple objects are created with the exact same properties in the exact same order, V8 makes them **share the exact same Hidden Class**.
+* **Blazing Fast Access:** When objects share a Hidden Class, the CPU can use fixed, hardcoded memory offsets to access data instantly, achieving performance similar to static languages.
+  ![Master](hiddenClass.png)
+   # 3.5 Inline Cache
+   ## Inline Caching (IC)
+
+Inline Caching (IC) is a core optimization technique used by the V8 JavaScript engine to accelerate repeated property lookups, element accesses, and method calls. Because JavaScript is a dynamically typed language, objects do not have fixed structures determined at compile time. Without IC, every time your code hits a line like `obj.x`, V8 would have to perform an expensive, dictionary-like memory lookup to find where `x` is stored. [1, 2, 3]
+Inline Caching shortcuts this entirely by remembering the structure of the objects passing through a specific line of code. [1, 2]
+
+### 1. What is it?
+* **Not a Code Implementation:** It is an internal optimization mechanism used by JavaScript engines (like V8), not something you write in your code.
+* **The "Memo" Trick:** Instead of searching the Memory Heap and checking Hidden Classes every single time a property is accessed (especially inside loops), the engine caches (memoizes) the exact memory offset directly inline where the code executes.
+
+### 2. How it works
+* **First Run (Miss & Cache):** The engine does the lookup once, finds the property address via the Hidden Class, and saves that address right there in the execution path.
+* **Next Runs (Cache Hit):** The engine completely skips the search and jumps straight to the cached memory address, making execution blazing fast.
+
+### 3. States 
+* **Monomorphic:** Objects have the same shape $\rightarrow$ Cache hits every time (Super Fast).
+* **Megamorphic:** Objects have mixed/different shapes $\rightarrow$ Cache fails $\rightarrow$ Engine falls back to slow dynamic lookups. 
+       
+
   # 4 - CallStack
 
   ![Master](callStack.png)
