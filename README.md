@@ -52,13 +52,16 @@ Oraily book Advanced Topics , based on Micro.ai interview (now You Know what is 
    - 3. Increase the stack size: Some JavaScript engines allow you to increase the maximum size of the call stack. However, this is not recommended as it can lead to other performance issues.
    - 4. Refactor your code: If you are experiencing a stack overflow, it may be a sign that your code needs to be refactored. Consider breaking up large functions into smaller ones, optimizing your code, and removing unnecessary recursive calls.
 
+  # 3 - Garbage Collector 
+   - Garbage collection in JavaScript is the automatic process of freeing up memory that is no longer being used by an application. JavaScript has a built-in garbage collector that manages memory automatically, so developers don’t have to worry about managing memory manually like other programming languages such as C and C++.
+   - mark-and swap : works by starting with a set of root objects, such as global variables or objects in the current execution stack. The garbage collector then traverses the object graph, marking objects that are reachable from the roots. Any objects that are not marked as reachable are considered garbage and can be removed.
+  ![Master)](MarkAndSwapAlgorithm.png)
+  ![Master)](GrabageCollector.png)
+   
    
   # 2 - JavaScript is ProtoType based  
   ![Master](prototypes.png)
   ![Master](Js-Prototypes.webp)
-  # 3 - Garbage Collector 
-  ![Master)](GrabageCollector.png)
-   
    
     
    
