@@ -284,3 +284,38 @@ Updating a property
 ## Important Note
 
 Proxy traps only intercept operations performed through the Proxy, not direct operations on the original Target.
+Where Do We Use Proxy?
+
+1. Data Validation
+
+We use Proxy to check data before changing an object's properties.
+
+Example: Preventing a user from setting their age to a negative number.
+
+2. Logging and Monitoring
+
+We use Proxy to track operations on an object.
+
+Example: Knowing when a property is read or updated.
+
+3. Reactivity
+
+We use Proxy to detect data changes and trigger related updates.
+
+Example: Updating the user interface when application data changes. Vue 3 uses Proxy in its reactivity system.
+
+4. Access Control
+
+We use Proxy to control access to object properties.
+
+Example: Preventing some parts of an application from reading a private property.
+
+5. Dynamic Properties
+
+We use Proxy to return custom values for properties that do not exist.
+
+Example: Returning a default configuration value when someone requests an unknown setting.
+
+Important Note
+
+Proxy traps only intercept operations performed through the Proxy, not direct operations on the original Target.
